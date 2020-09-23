@@ -32,7 +32,7 @@ StartTime = datetime.datetime.now() # this is used to count the time since the e
 def SpitEmail ():
 	global StartTime
 #variables for email settings:
-	fromaddr = "yourEmail@domain.ac.uk" # change to the person ti is being sent from
+	fromaddr = "yourEmail@domain.ac.uk" # change to the person it is being sent from
 	toaddr = "yourEmail@domain.ac.uk" # change to the person it is being sent to (can be yourself)
 	msg = MIMEMultipart()
 	msg['From'] = fromaddr
@@ -59,7 +59,7 @@ def SpitEmail ():
 
 
 sleep = 120 # how many seconds to sleep between posts to the channel
-key = '8RFCPCBQJ26L3UK'  # Thingspeak channel to update- API write key from ThingSpeak
+key = '8RFCPCBQJ26L6UK'  # Thingspeak channel to update- API write key from ThingSpeak
 
 TempAtTminus2 = 0
 TempAtTminus1 = 0
